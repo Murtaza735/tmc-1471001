@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/runner/NewRandomMonthGenerator/main.csproj",
+      "projectUniqueName": "/home/runner/YouthfulHilariousCommas/main.csproj",
       "projectName": "main",
-      "projectPath": "/home/runner/NewRandomMonthGenerator/main.csproj",
+      "projectPath": "/home/runner/YouthfulHilariousCommas/main.csproj",
       "packagesPath": "/home/runner/.nuget/packages/",
-      "outputPath": "/home/runner/NewRandomMonthGenerator/obj/",
+      "outputPath": "/home/runner/YouthfulHilariousCommas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/runner/.nuget/NuGet/NuGet.Config"

@@ -1,13 +1,21 @@
 using System;
 
-class Program {
-  public static void Main (string[] args) {
-    string[] months = new string [12]
-    {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
-    Random rnd= new Random();
+class Mainclass {
+  public static void Main()
+    
+    // ... Create 2D array of strings.
+string[,] array = new string[,]
+{
+{"cat", "dog"},
+    {"bird", "fish"},
+};
+//... Print out values.
+Console.WriteLine(array[0, 0]);
+Console.WriteLine(array[0, 1]);
+Console.WriteLine(array[1, 0]);
+Console.WriteLine(array[1, 1]);
 
-    int month = rnd.Next(1,13);
+  Console.ReadKey();
 
-    Console.WriteLine("Month is {0}", months[month-1]);
   }
 }
